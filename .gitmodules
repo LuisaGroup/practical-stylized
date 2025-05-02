@@ -1,0 +1,4 @@
+[submodule "crates/akari_cpp_ext/cpp_ext/tiny-cuda-nn"]
+	path = crates/akari_cpp_ext/cpp_ext/tiny-cuda-nn
+	url = https://github.com/shiinamiyuki/tiny-cuda-nn.git
+	branch = ema

@@ -1,0 +1,27 @@
+{
+    "method": {
+        "inner_samples": [
+            32,
+            14,
+            8,
+            6
+        ],
+        "repeats":1,
+        "vram":10000,
+        "max_depth": 12,
+        "rr_depth": 5,
+        "spp_per_pass": 4,
+        "type": "branching_pt"
+    },
+    "sampler": {
+        "type": "pmj02bn",
+        "seed": 1
+    },
+    "film": {
+        "filter": {
+            "type": "gaussian",
+            "radius": 1.5
+        },
+        "out": "output/teaser-v2/brpt.exr"
+    }
+}

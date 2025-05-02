@@ -1,0 +1,24 @@
+{
+    "method": {
+        "inner_samples": [
+            1
+        ],
+        "repeats":4096,
+        "vram":12000,
+        "max_depth": 12,
+        "rr_depth": 5,
+        "spp_per_pass": 4,
+        "type": "branching_pt"
+    },
+    "sampler": {
+        "type": "pmj02bn",
+        "seed": 1
+    },
+    "film": {
+        "filter": {
+            "type": "gaussian",
+            "radius": 0.0
+        },
+        "out": "output/teaser-v2/pt.exr"
+    }
+}

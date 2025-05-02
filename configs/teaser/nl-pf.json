@@ -1,0 +1,29 @@
+{
+    "method": {
+        "repeats": 1,
+        "max_depth": 12,
+        "branch": 19,
+        "radius_scale": [
+            0.2
+        ],
+        "smis": true,
+        "reuse": [
+            1024
+        ],
+        "final_gather": null,
+        "no_first_hit_stylization": false,
+        "scene_bounds":[[-8,-8,-8],[8,8,8]],
+        "type": "pf"
+    },
+    "sampler": {
+        "type": "pmj02bn",
+        "seed": 1
+    },
+    "film": {
+        "filter": {
+            "type": "gaussian",
+            "radius": 1.5
+        },
+        "out": "output/teaser-v2/nl-pf.exr"
+    }
+}

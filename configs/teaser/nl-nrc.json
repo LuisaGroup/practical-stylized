@@ -1,0 +1,33 @@
+[
+    {
+        "method": {
+            "training_iters": 4096,
+            "baches_per_iter": 16,
+            "batch_size": 65536,
+            "max_depth": 12,
+            "n_hash_grid_levels": 22,
+            "n_hash_grid_features":4,
+            "decay_interval": 100,
+            "n_hidden_units": 128,
+            "n_hidden_layers": 5,
+            "learning_rate":1e-3,
+            "repeats":1,
+            "final_gather":32768,
+            "no_first_hit_stylization":false,
+            "per_level_training":null,
+            "scene_bounds":[[-8,-8,-8],[8,8,8]],
+            "type": "nrc_pt"
+        },
+        "sampler": {
+            "type": "pmj02bn",
+            "seed": 1
+        },
+        "film": {
+            "filter": {
+                "type": "box",
+                "radius": 1.0
+            },
+            "out": "output/teaser-v2/nl-nrc.exr"
+        }
+    }
+]
