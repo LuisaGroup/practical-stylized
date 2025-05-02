@@ -7,7 +7,7 @@ The code is based on [AkariRender](https://github.com/shiinamiyuki/akari_render)
 - [nrc_pt.rs](crates/akari_integrator/src/nrc_pt.rs) The implentation of nonlinear neural radiance caching (NL-NRC).
 - [svm/surface/mod.rs](crates/akari_render/src/svm/surface/mod.rs) The implementation of various nonlinear stylization shader nodes.
 ## Build
-First clone the project, make sure to enable LFS:
+First clone the project:
 ```bash
 git clone --recursive https://github.com/LuisaGroup/practical-stylized
 ```
