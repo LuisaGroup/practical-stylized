@@ -1,4 +1,4 @@
-# Practical Styliized Nonlinear Monte Carlo Rendering
+# Practical Stylized Nonlinear Monte Carlo Rendering
 This is an early access version of the SIGGRAPH 2025 paper ["Practical Stylized Nonlinear Monte Carlo Rendering](https://cs.uwaterloo.ca/~xtong/assets/pdf/practical-stylized.pdf)
 ![](teaser-v2.jpeg)
 
