@@ -1,5 +1,5 @@
 # Practical Stylized Nonlinear Monte Carlo Rendering
-This is an early access version of the SIGGRAPH 2025 paper ["Practical Stylized Nonlinear Monte Carlo Rendering](https://cs.uwaterloo.ca/~xtong/assets/pdf/practical_stylized.pdf)
+This is an early access version of the SIGGRAPH 2025 paper ["Practical Stylized Nonlinear Monte Carlo Rendering"](https://cs.uwaterloo.ca/~xtong/assets/pdf/practical_stylized.pdf)
 ![](teaser-v2.jpeg)
 
 The code is based on [AkariRender](https://github.com/shiinamiyuki/akari_render). The main files are:
