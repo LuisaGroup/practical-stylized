@@ -1,5 +1,5 @@
-# Practical Stilzed Nonlinear Monte Carlo Rendering
-This is an early access version of the SIGGRAPH 2025 paper ["Practical Stilzed Nonlinear Monte Carlo Rendering](https://cs.uwaterloo.ca/~xtong/assets/pdf/practical-stylized.pdf)
+# Practical Stylized Nonlinear Monte Carlo Rendering
+This is an early access version of the SIGGRAPH 2025 paper ["Practical Stylized Nonlinear Monte Carlo Rendering](https://cs.uwaterloo.ca/~xtong/assets/pdf/practical_stylized.pdf)
 ![](teaser-v2.jpeg)
 
 The code is based on [AkariRender](https://github.com/shiinamiyuki/akari_render). The main files are:
@@ -25,9 +25,10 @@ To run on CPU, the following runtime requirement must be satisfied:
 
 ## Run
 Running the NL-NRC requires a CUDA-enabeld GPU. The other methods can run on CPU or GPU.
-To produce render the scene in the teaser:
+Download the scene file from release tab and put `Scene.bin` under `scenes/veach-ajar-sty-v2/`.
+To render the scene in the teaser:
 ```bash
-DEVICE=cuda
+DEVICE=cuda # use cpu if you run out of VRAM
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/pt.json -d $DEVICE --gui
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/brpt.json -d $DEVICE --gui
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/nl-pf.json -d $DEVICE
