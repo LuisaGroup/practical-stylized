@@ -28,7 +28,7 @@ Running the NL-NRC requires a CUDA-enabeld GPU. The other methods can run on CPU
 Download the scene file from release tab and put `Scene.bin` under `scenes/veach-ajar-sty-v2/`.
 To produce render the scene in the teaser:
 ```bash
-DEVICE=cuda
+DEVICE=cuda # use cpu if you run out of VRAM
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/pt.json -d $DEVICE --gui
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/brpt.json -d $DEVICE --gui
 cargo run  --release --bin akari-cli -- -s scenes/veach-ajar-sty-v2/scene-sty.json -m configs/teaser/nl-pf.json -d $DEVICE
