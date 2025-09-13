@@ -23,9 +23,11 @@ image = "0.24"
 indicatif = "0.17"
 lazy_static = "1"
 log = "0.4"
-luisa_compute = { git = "https://github.com/LuisaGroup/luisa-compute-rs", features = [
+
+luisa_compute = { git = "https://github.com/LuisaGroup/luisa-compute-rs", default-features=false,features = [
+    "cpu",
+    "cuda",
     "glam",
-    # "oidn",
 ] }
 parking_lot = "0.12"
 rand = "0.8"
